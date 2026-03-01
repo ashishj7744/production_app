@@ -25,7 +25,7 @@ include 'config.php';
 <body>
 
 <div class="box <?php echo $environment; ?>">
-    <h1>🚀 Simple PHP Application</h1>
+    <h1>🚀 Simple PHP Application Updated from dev1 user</h1>
     <h2>Environment: <?php echo $environment; ?></h2>
     <p>Server IP: <?php echo $_SERVER['SERVER_ADDR']; ?></p>
     <p>Hostname: <?php echo gethostname(); ?></p>
